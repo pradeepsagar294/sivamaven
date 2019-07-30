@@ -2,7 +2,7 @@ node('master')
 {
     stage('cdw')
     {
-       git 'https://github.com/selenium-saikrishna/maven.git' 
+       git 'https://github.com/pradeepsagar294/sivamaven/' 
     }
     stage('cb')
     {
@@ -14,7 +14,7 @@ node('master')
    }
    stage('ctest')
    {
-       git 'https://github.com/selenium-saikrishna/FunctionalTesting.git'
+       git 'https://github.com/'pradeepsagar294/sivamaven/
        sh label: '', script: 'echo "test passed"'
    }
    stage('cder')
